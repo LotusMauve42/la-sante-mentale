@@ -1,0 +1,522 @@
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+	position: relative;
+	z-index: 100;
+}
+
+ul .main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	z-index: 100;
+}
+
+li .main-menu {
+    display: inline;
+    margin-right: 20px;
+	z-index: 100;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+	z-index: 100;
+}
+
+.maison {
+    margin-right: auto; 
+    margin-top: 1px; 
+	margin-left: -70%;
+	filter: invert(1);
+}
+
+.maison a {
+    display: flex; 
+    align-items: center; 
+    text-decoration: none;
+}
+
+.maison a img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 5px; 
+    border: none; 
+}
+
+	
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    overflow: visible; 
+    transition: height 0.3s ease; 
+	z-index: 100;
+}
+
+
+ul .main-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+	z-index: 100;
+}
+
+li {
+    position: relative;
+    margin-right: 20px;
+	z-index: 100;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.more-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+	z-index: 100;
+}
+
+li:hover .more-options {
+    display: block;
+	z-index: 100;
+}
+
+.more-options li {
+    margin-bottom: 10px; 
+	z-index: 100;
+}
+
+.more-options a {
+    display: block;
+	z-index: 100;
+}
+
+.main-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+	z-index: 100;
+}
+
+.main-menu li {
+    display: inline;
+    margin-right: 40px; 
+	z-index: 100;
+}
+
+nav ul li a:hover {
+    color: #c3b880; 
+}
+
+
+header {
+    background-color: #5b5b5b;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+	position: relative;
+	z-index: 99;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	background-color: #f3eddc;
+
+}
+.body {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+
+.contenu {
+    display: flex;
+}
+
+.menu {
+    background-color: #8e836e;
+    padding: 0.5%;
+    height: 55%;
+	width: 10%;
+	border: 5px solid #4d483e;
+	border-radius: 25px;
+	margin-bottom: 10%;
+	margin-left: 0.2%;
+	position: absolute;
+	z-index: 2;
+}
+
+.menu h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+	color: black;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+	color: black;
+	font-size: 100%;
+	margin-bottom: 15px;
+	
+}
+
+.menu li {
+    margin-bottom: 15px;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.page {
+    padding: 20px;
+    flex: 1;
+}
+
+.menu a:hover {
+	color: #445183; 
+    text-decoration: underline; 
+}
+.alinéa{
+	margin-left: 15%;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    overflow: visible;
+    transition: height 0.3s ease;
+	z-index: 100;
+}
+
+@media only screen and (max-width: 800px) {
+	.menu{
+		position:relative;
+		height: 200%;
+		width: 70%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 2%;
+	}
+	
+}
+
+
+
+@media only screen and (max-width: 2000px) {
+ .main-menu {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .main-menu li {
+        margin: 0 3% 0 0; 
+		margin-left: 1%;
+	}
+}
+
+.non-cliquable{
+	font-weight: bold;
+}
+
+.black{
+	color: black;
+	 transition: color 0.3s ease;
+	 font-weight: normal;
+}
+
+.black:hover{
+	 color: #7c799c; 
+    text-decoration: underline; 
+}
+
+
+iframe{
+	padding-left: 15%;
+	margin-bottom: 1%;
+}
+
+
+#citation1{
+	background-color: #cbc4b0;
+	border: 5px solid #9a9481;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 150%;
+	margin-left: 35.5em;
+	margin-top: -1000px;
+}
+
+#citation2{
+	background-color: #afa486;
+	border: 5px solid #716954;
+	border-radius: 10px;
+	margin-left: 36em;
+	font-weight: bold;
+	font-size: 150%;
+	margin-top: 6%;
+}
+
+#citation3{
+	background-color: #8b7f5e;
+	border: 5px solid #4d442b;
+	border-radius: 10px;
+	margin-left: 36.5em;
+	font-weight: bold;
+	font-size: 150%;
+	margin-top: 6%;
+}
+@media screen and (max-width: 1550px){
+	#citation1, #citation2,#citation3 {
+		margin-top: 0;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    #citation1, #citation2, #citation3 {
+      width: 30%;
+      margin-bottom: 20px;
+    }
+
+   #début-button {
+            width: 2%;
+            position: fixed;
+            bottom: 20px;
+            right: 5%;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+			transition: filter 0.3s;
+        }
+
+#début-button:hover {
+    filter: invert(0.5) hue-rotate(250deg);
+}
+
+hr{
+	width: 90%;
+	margin-right: 30%;
+}
+
+.instagram {
+	width: 2%;
+	margin-left: 15%;
+	transition: filter 0.3s;
+}
+.instagram:hover {
+    filter: invert(0.5) hue-rotate(250deg);
+}
+
+#instagram {
+	color: black;
+}
+
+#instagram:hover{
+		 color: #7c799c; 
+    text-decoration: underline; 
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start; /* Aligner les éléments en haut */
+    justify-content: space-between; /* Aligner à gauche et à droite */
+}
+
+.colonne-gauche,
+.colonne-droite {
+    width: 13%; /* Ajustez la largeur en pourcentage selon vos besoins */
+    height: 300em; /* Utilisez une unité relative comme em */
+    background-color: #bbb29e;
+    border: 3px solid #8c8676;
+    box-sizing: border-box; /* Inclure la bordure dans la largeur/hauteur */
+    margin-top: -300em; /* Utilisez une marge négative pour positionner les colonnes vers le haut */
+}
+
+/* Ajoutez une règle clearfix pour éviter les problèmes de mise en page avec les flotteurs */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (min-width: 800px) {
+    .flex-container {
+    display: flex;
+    align-items: flex-start; /* Aligner les éléments en haut */
+    justify-content: space-between; /* Aligner à gauche et à droite */
+}
+
+.colonne-gauche,
+.colonne-droite {
+    width: 13%; /* Ajustez la largeur en pourcentage selon vos besoins */
+    height: 600em; /* Utilisez une unité relative comme em */
+    background-color: #bbb29e;
+    border: 3px solid #8c8676;
+    box-sizing: border-box; /* Inclure la bordure dans la largeur/hauteur */
+    margin-top: -600em; /* Utilisez une marge négative pour positionner les colonnes vers le haut */
+}
+
+/* Ajoutez une règle clearfix pour éviter les problèmes de mise en page avec les flotteurs */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+}
+@media screen and (max-width: 1100px) {
+    .flex-container {
+    display: flex;
+    align-items: flex-start; /* Aligner les éléments en haut */
+    justify-content: space-between; /* Aligner à gauche et à droite */
+}
+
+.colonne-gauche,
+.colonne-droite {
+    width: 13%; /* Ajustez la largeur en pourcentage selon vos besoins */
+    height: 350em; /* Utilisez une unité relative comme em */
+    background-color: #bbb29e;
+    border: 3px solid #8c8676;
+    box-sizing: border-box; /* Inclure la bordure dans la largeur/hauteur */
+    margin-top: -350em; /* Utilisez une marge négative pour positionner les colonnes vers le haut */
+}
+
+/* Ajoutez une règle clearfix pour éviter les problèmes de mise en page avec les flotteurs */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .flex-container {
+    display: flex;
+    align-items: flex-start; /* Aligner les éléments en haut */
+    justify-content: space-between; /* Aligner à gauche et à droite */
+}
+
+.colonne-gauche,
+.colonne-droite {
+    width: 13%; /* Ajustez la largeur en pourcentage selon vos besoins */
+    height: 500em; /* Utilisez une unité relative comme em */
+    background-color: #bbb29e;
+    border: 3px solid #8c8676;
+    box-sizing: border-box; /* Inclure la bordure dans la largeur/hauteur */
+    margin-top: -500em; /* Utilisez une marge négative pour positionner les colonnes vers le haut */
+}
+
+/* Ajoutez une règle clearfix pour éviter les problèmes de mise en page avec les flotteurs */
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+}
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.footer-column a:hover {
+    color: #7c799c; 
+    text-decoration: underline; 
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
